@@ -1,10 +1,10 @@
+# Add  code here!
 def prime?(num)
-  return false if num <= 1
 
-  n = 2
-  while n < num
-    return false if num % n == 0
-    n += 1
-  end
-  true
+
+if (2..Math.sqrt(num)).none? { |i| (num % i).zero? }
+  return true
+ else
+   return false
+ end
 end
