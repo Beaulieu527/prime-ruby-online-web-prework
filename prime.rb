@@ -1,5 +1,5 @@
 # Add  code here!
-def prime?(number)
+def prime?(i)
 
 
 if (2..Math.sqrt(num)).none? { |i| (num % i).zero? }
